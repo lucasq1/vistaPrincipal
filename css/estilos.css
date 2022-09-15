@@ -16,7 +16,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:linear-gradient(45deg, rgba(0,0,0,0.45675770308123254) 0%, rgba(0,0,0,0.7) 100%),url(/img/header.jpg); 
+    background-image:linear-gradient(45deg, rgba(0,0,0,0.45675770308123254) 0%, rgba(0,0,0,0.7) 100%),url(img/header.jpg); 
 
 }
 
@@ -41,7 +41,7 @@
 .nav_logo{
     width: 50px;
     height: 50px;
-    background-image: url(/img/logo.png);
+    background-image: url(img/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +128,7 @@
     height: 60vh;
 }
 .a_image{
-    background-image: url(/img/a.jpg);
+    background-image: url(img/a.jpg);
     width: 26vw;
     height: 72vh;
     background-position: center;
@@ -150,7 +150,7 @@
 
 .b{
     color: white;
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.45675770308123254) 0%, rgba(0,0,0,0.7) 100%),url(/img/rodeo-project-management-software-PYqzYhTNjho-unsplash.jpg);
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.45675770308123254) 0%, rgba(0,0,0,0.7) 100%),url(img/rodeo-project-management-software-PYqzYhTNjho-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@
     height: 60vh;
 }
 .c_image{
-    background-image: url(/img/c.jpg);
+    background-image: url(img/c.jpg);
     width: 26vw;
     height: 72vh;
     background-position: center;
