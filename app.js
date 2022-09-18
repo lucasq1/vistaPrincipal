@@ -32,7 +32,7 @@ window.addEventListener('scroll', function(event) {
         menu.style.transition = "all 0.5s"
         menu.style.top="28px"
         sec3.style.transition = "all 0.5s"
-        sec3.style.padding = "50px 0 0 0"
+        sec3.style.padding = "70px 0 0 0"
         desp.style.margin="-100px 0 0 0"
     }
 });
