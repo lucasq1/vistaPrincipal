@@ -5,6 +5,7 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Comfortaa';
+    box-sizing: border-box;
 }
 
 
@@ -81,7 +82,7 @@
     text-align: center;
 }
 
-.nav_btn_user{
+.nav_btn_user,.nav_btn_login, .nav_btn_reg{
     text-decoration: none;
     display: flex;
     color: white;
@@ -211,6 +212,8 @@
     border-right: solid 3px #f09a00;
     padding: 0 55px 0 55px;
     height: 60vh;
+
+    
 }
 .c_image{
     background-image: url(https://i.postimg.cc/fb4BZL9T/c.jpg);
@@ -268,6 +271,118 @@ input[type=submit]{
 
 }
 
+.nav_btn_user2{
+    display: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 80vw;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 0 calc(80vw - 75vw) 25px calc(80vw - 72vw);
+    
+}
+/*Media */
 
+@media screen and (max-width:955px) {
+    .nav_cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        background-image: url(/img/Menu_icon_icon-icons.com_71858.png);
+        position:absolute;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        top: 155px;
+        left: 0;
+    }
 
+    .desp{
+        background-color: rgba(0, 0, 0, 1);
+        width: 0;
+        height: 0;
+        position: fixed;
+        transition: all 0.1s;
+        }
 
+    .mostrar{
+        width: 100vw;
+        height: 450px;
+    }
+    .nav_btn_user, .nav_btn_login, .nav_btn_reg{
+        display: none;
+    }
+    
+
+    .mostrar2{
+        display: flex;
+    }
+
+    .nav_cont_l{
+        display: flex;
+        /* text-align: center; */
+        justify-content: center;
+        width: 100vw;
+        height: 200px;
+        margin: 0;
+        
+    }
+}
+
+@media screen and (max-width:715px){
+    .nav{
+        
+    }
+    .c_image{
+        display: none;
+    }
+
+    .a_image{
+        display: none;
+    }
+
+    .a_info{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        border-left: 0;
+        padding:25px;
+        height: 60vh;
+    
+    }
+
+    .b_info{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        height: 100vh;
+        gap: 50px;
+        
+    }
+    
+
+    .c_info{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    border:0;
+    padding: 0 55px 0 55px;
+    height: 60vh;
+    }
+}
