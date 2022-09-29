@@ -52,6 +52,8 @@
     color: white;
     font-family: 'Comfortaa';
     font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .nav_cont_m{
@@ -302,6 +304,7 @@ input[type=submit]{
         height: 50px;
         top: 155px;
         left: 0;
+        cursor:pointer;
     }
 
     .desp{
